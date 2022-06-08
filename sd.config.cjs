@@ -9,7 +9,7 @@ module.exports = {
     'reduced-name': {
       type: 'name',
       transformer(token) {
-        return `specify-${token.name.split('-').slice(2).join('-')}`;
+        return `flamingo-${token.name.split('-').slice(2).join('-')}`;
       },
     },
   },
