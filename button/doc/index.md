@@ -9,15 +9,5 @@ import '../src/button.css';
 ```
 
 ```js preview-story
-export const base = () => html` <button class="btn">Click me!</button> `;
-```
-
-```js preview-story
-export const outline = () =>
-  html` <button class="btn" outline>Click me!</button> `;
-```
-
-```js preview-story
-export const disabled = () =>
-  html` <button class="btn" disabled>Click me!</button> `;
+export const base = () => html` <button class="btn">Primary</button> `;
 ```

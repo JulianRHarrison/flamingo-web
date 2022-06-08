@@ -1,15 +1,23 @@
 .btn {
-  background-color: var(--specify-button-primary-background);
+  background-color: var(--flamingo-primary-900);
+  font-size: var(--flamingo-button-button-text);
   padding: 0.5rem 1.5rem;
   color: var(--specify-button-primary-color);
+  display: flex;
   border: none;
-  outline: none;
+  border-radius: 5px;
   cursor: pointer;
-  border-radius: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  width: 154px;
+  height: 56px;
 }
 
 .btn:hover {
-  background-color: var(--specify-button-primary-hover-background);
+  background-color: var(--flamingo-primary-900);
+  transition: 300ms ease all;
+  opacity: 0.89;
 }
 
 .btn:focus {
