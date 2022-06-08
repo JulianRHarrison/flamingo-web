@@ -1,18 +1,11 @@
 {
-  "repository": "@divriots/starter-specify",
+  "repository": "@cushon/flamingo",
   "head": "specify",
+  "base": "main",
   "rules": [
     {
-      "name": "Design Tokens / Colors",
-      "path": "sd-input/",
-      "parsers": [
-        {
-          "name": "to-style-dictionary",
-          "options": {
-            "splitBy": "/"
-          }
-        }
-      ]
+      "name": "Extract all tokens to JSON",
+      "path": "specify_output/all-tokens.json"
     }
   ]
 }
