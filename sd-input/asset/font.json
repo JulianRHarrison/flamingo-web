@@ -1,0 +1,22 @@
+{
+  "asset": {
+    "font": {
+      "museoSansRounded700": {
+        "name": { "value": "MuseoSansRounded-700" },
+        "ttf": { "value": "MuseoSansRounded-700.ttf" }
+      },
+      "museoSans700": {
+        "name": { "value": "MuseoSans-700" },
+        "ttf": { "value": "MuseoSans-700.ttf" }
+      },
+      "museoSans500": {
+        "name": { "value": "MuseoSans-500" },
+        "ttf": { "value": "MuseoSans-500.ttf" }
+      },
+      "museoSans300": {
+        "name": { "value": "MuseoSans-300" },
+        "ttf": { "value": "MuseoSans-300.ttf" }
+      }
+    }
+  }
+}

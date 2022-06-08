@@ -1,9 +1,17 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Jun 2022 12:16:38 GMT
+ * Generated on Wed, 08 Jun 2022 12:51:52 GMT
  */
 
 :root {
+  --specify-museo-sans-rounded700-name: "MuseoSansRounded-700";
+  --specify-museo-sans-rounded700-ttf: "MuseoSansRounded-700.ttf";
+  --specify-museo-sans700-name: "MuseoSans-700";
+  --specify-museo-sans700-ttf: "MuseoSans-700.ttf";
+  --specify-museo-sans500-name: "MuseoSans-500";
+  --specify-museo-sans500-ttf: "MuseoSans-500.ttf";
+  --specify-museo-sans300-name: "MuseoSans-300";
+  --specify-museo-sans300-ttf: "MuseoSans-300.ttf";
   --specify-white: #ffffff;
   --specify-tertiary-900: #ade4ff;
   --specify-tertiary-00: #f7fcff;
@@ -20,4 +28,36 @@
   --specify-alert-success-active: #8bc34a;
   --specify-alert-error-inactive: #fbd1cd;
   --specify-alert-error-active: #f44336;
+  --specify-step-label-step-label-text: 12px;
+  --specify-s2-sub-title2: 14px;
+  --specify-s2-subtitle2: 14px;
+  --specify-s1-sub-title1: 16px;
+  --specify-label-body-text3: 14px;
+  --specify-h2-header2: 20px;
+  --specify-h1-header1: 28px;
+  --specify-caption-caption-text: 12px;
+  --specify-caption-bold-caption-text-bold: 12px;
+  --specify-button-button-text: 14px;
+  --specify-b2-body-text2: 14px;
+  --specify-b1-l-body-text1-light: 16px;
+  --specify-b1-body-text1: 16px;
+  --specify-spacing-s2-sub-title2: -0.20000000298023224px;
+  --specify-spacing-s1-sub-title1: 0.009999999776482582px;
+  --specify-spacing-label-body-text3: -0.20000000298023224px;
+  --specify-spacing-caption-caption-text: 0.4000000059604645px;
+  --specify-spacing-caption-bold-caption-text-bold: 0.4000000059604645px;
+  --specify-spacing-button-button-text: 0.20000000298023224px;
+  --specify-height-step-label-step-label-text: 14px;
+  --specify-height-s2-sub-title2: 20px;
+  --specify-height-s2-subtitle2: 20px;
+  --specify-height-s1-sub-title1: 20px;
+  --specify-height-label-body-text3: 17px;
+  --specify-height-h2-header2: 24px;
+  --specify-height-h1-header1: 36px;
+  --specify-height-caption-caption-text: 20px;
+  --specify-height-caption-bold-caption-text-bold: 20px;
+  --specify-height-button-button-text: 20px;
+  --specify-height-b2-body-text2: 24px;
+  --specify-height-b1-l-body-text1-light: 20px;
+  --specify-height-b1-body-text1: 24px;
 }
