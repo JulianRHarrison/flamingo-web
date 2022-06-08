@@ -1,18 +1,27 @@
 {
-  "repository": "@cushon/flamingo",
-  "head": "specify",
-  "rules": [
-    {
-      "name": "Design Tokens / Colors",
-      "path": "sd-input/",
-      "parsers": [
-        {
-          "name": "to-style-dictionary",
-          "options": {
-            "splitBy": "/"
-          }
-        }
-      ]
-    }
-  ]
-}
+   "repository": "@cushon/flamingo",
+   "head": "specify",
+   "rules": [
+     {
+       "name": "Design Tokens / Colors",
+       "path": "",
+       "filter": {
+         "types": ["color"]
+       },
+       "parsers": [
+         {
+           "name": "sort-by",
+           "options": {
+             "keys": ["name"]
+           }
+         },
+         {
+           "name": "to-style-dictionary",
+           "options": {
+             "splitBy": "/"
+           }
+         }
+       ]
+     }
+   ]
+ }
