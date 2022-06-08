@@ -1,11 +1,154 @@
-{
-  "repository": "@cushon/flamingo",
-  "head": "specify",
-  "base": "main",
-  "rules": [
-    {
-      "name": "Extract all tokens to JSON",
-      "path": "specify_output/all-tokens.json"
-    }
-  ]
-}
+const path = require('path');
+
+const publicPath = './output';
+const assetsFolderPath = 'assets';
+const vectorsFolderPath = `${publicPath}/${assetsFolderPath}/icons`;
+const designTokensFolderPath = `${publicPath}/styles`;
+const fontsFolderPath = `${publicPath}/${assetsFolderPath}/fonts`;
+const fontFormats = ['woff2', 'woff'];
+
+const designTokensRules = [
+  {
+    name: 'Design Tokens / Theme',
+    path: `${designTokensFolderPath}/theme.js`,
+    filter: {
+      types: ['color', 'font', 'textStyle'],
+    },
+    parsers: [
+      {
+        name: 'sort-by',
+        options: {
+          keys: ['name'],
+        },
+      },
+      {
+        name: 'px-to-rem',
+        options: {
+          keys: ['fontSize'],
+        },
+      },
+      {
+        name: 'to-theme-ui',
+        options: {
+          variants: true,
+          formatConfig: {
+            exportDefault: true,
+          },
+          formatTokens: {
+            colorFormat: {
+              format: 'hsl',
+            },
+            fontSizeFormat: {
+              type: 'string',
+              unit: 'rem',
+            },
+          },
+          presets: {
+            fontWeights: {
+              preset: 'base',
+              freeze: true,
+            },
+          },
+        },
+      },
+    ],
+  },
+];
+
+const fontRules = [
+  {
+    name: 'Design Tokens / Export fonts',
+    path: fontsFolderPath,
+    filter: {
+      types: ['font'],
+    },
+    parsers: [
+      {
+        name: 'convert-font',
+        options: {
+          formats: fontFormats,
+        },
+      },
+    ],
+  },
+  {
+    name: 'Design Tokens / CSS font imports',
+    path: `${designTokensFolderPath}/fonts.css`,
+    filter: {
+      types: ['font'],
+    },
+    parsers: [
+      {
+        name: 'to-css-font-import',
+        options: {
+          formats: fontFormats,
+          fontsPath: path.relative(designTokensFolderPath, fontsFolderPath),
+        },
+      },
+    ],
+  },
+];
+
+const vectorRules = [
+  {
+    name: 'Icons',
+    path: vectorsFolderPath,
+    filter: {
+      types: ['vector'],
+    },
+    parsers: [
+      // Remove everything before the last slash
+      {
+        name: 'replace-string',
+        options: {
+          keys: ['name'],
+          regex: {
+            pattern: '(.*?)\\/',
+            flags: 'g',
+          },
+          trim: true,
+        },
+      },
+      // Transform the name of the vector in kebabcase
+      {
+        name: 'kebabcasify',
+        options: {
+          keys: ['name'],
+        },
+      },
+      // Optimise the vector
+      {
+        name: 'svgo',
+      },
+      // Define the name of the file that will be written.
+      {
+        name: 'name-assets-files-by-pattern',
+        options: {
+          pattern: '{{name}}.{{format}}.jsx',
+        },
+      },
+      // Wrap vector in a jsx function
+      {
+        name: 'svg-to-jsx',
+        options: {
+          prepend: "import React from 'react';",
+          variableFormat: 'camelCase',
+          wrapper: {
+            tag: 'div',
+            className: 'icon-{{name}} icon',
+          },
+        },
+      },
+    ],
+  },
+];
+
+/*
+ * Finally exports the configuration
+ */
+module.exports = {
+  // Find more about how to target a Specify repository at: https://specifyapp.com/developers/api#heading-parameters
+  repository: '@owner/name',
+  personalAccessToken: '<your-personal-access-token>',
+  rules: [...designTokensRules, ...vectorRules, ...fontRules],
+};
