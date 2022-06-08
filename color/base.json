@@ -1,0 +1,36 @@
+{
+  "color": {
+    "base": {
+      "white": { "value": "rgb(255, 255, 255)" },
+      "tertiary": {
+        "900": { "value": "rgb(173, 228, 255)" },
+        "00": { "value": "rgb(247, 252, 255)" }
+      },
+      "secondary": {
+        "100": { "value": "rgb(230, 247, 253)" },
+        "900": { "value": "rgb(2, 180, 239)" }
+      },
+      "primary": {
+        "100": { "value": "rgb(252, 235, 244)" },
+        "900": { "value": "rgb(227, 51, 144)" }
+      },
+      "grey2": { "value": "rgb(225, 225, 225)" },
+      "grey1": { "value": "rgb(151, 151, 151)" },
+      "black": { "value": "rgb(47, 47, 47)" },
+      "alert": {
+        "warning": {
+          "inactive": { "value": "rgb(255, 220, 209)" },
+          "active": { "value": "rgb(255, 112, 67)" }
+        },
+        "success": {
+          "inactive": { "value": "rgb(226, 240, 210)" },
+          "active": { "value": "rgb(139, 195, 74)" }
+        },
+        "error": {
+          "inactive": { "value": "rgb(251, 209, 205)" },
+          "active": { "value": "rgb(244, 67, 54)" }
+        }
+      }
+    }
+  }
+}
