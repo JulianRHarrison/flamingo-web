@@ -1,149 +1,15 @@
 {
   "repository": "@cushon/flamingo",
-  "personalAccessToken": "8ef19d0922aeecc77c82040368b2f25ccdb222bdc2b06fcc67d8e7390adf56a3",
+  "head": "specify",
   "rules": [
     {
-      "name": "Design Tokens / Theme",
-      "path": "./output/styles/theme.js",
-      "filter": {
-        "types": [
-          "color",
-          "font",
-          "textStyle"
-        ]
-      },
+      "name": "Design Tokens / Colors",
+      "path": "sd-input/",
       "parsers": [
         {
-          "name": "sort-by",
+          "name": "to-style-dictionary",
           "options": {
-            "keys": [
-              "name"
-            ]
-          }
-        },
-        {
-          "name": "px-to-rem",
-          "options": {
-            "keys": [
-              "fontSize"
-            ]
-          }
-        },
-        {
-          "name": "to-theme-ui",
-          "options": {
-            "variants": true,
-            "formatConfig": {
-              "exportDefault": true
-            },
-            "formatTokens": {
-              "colorFormat": {
-                "format": "hsl"
-              },
-              "fontSizeFormat": {
-                "type": "string",
-                "unit": "rem"
-              }
-            },
-            "presets": {
-              "fontWeights": {
-                "preset": "base",
-                "freeze": true
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "Icons",
-      "path": "./output/assets/icons",
-      "filter": {
-        "types": [
-          "vector"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "replace-string",
-          "options": {
-            "keys": [
-              "name"
-            ],
-            "regex": {
-              "pattern": "(.*?)\\/",
-              "flags": "g"
-            },
-            "trim": true
-          }
-        },
-        {
-          "name": "kebabcasify",
-          "options": {
-            "keys": [
-              "name"
-            ]
-          }
-        },
-        {
-          "name": "svgo"
-        },
-        {
-          "name": "name-assets-files-by-pattern",
-          "options": {
-            "pattern": "{{name}}.{{format}}.jsx"
-          }
-        },
-        {
-          "name": "svg-to-jsx",
-          "options": {
-            "prepend": "import React from 'react';",
-            "variableFormat": "camelCase",
-            "wrapper": {
-              "tag": "div",
-              "className": "icon-{{name}} icon"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "Design Tokens / Export fonts",
-      "path": "./output/assets/fonts",
-      "filter": {
-        "types": [
-          "font"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "convert-font",
-          "options": {
-            "formats": [
-              "woff2",
-              "woff"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Design Tokens / CSS font imports",
-      "path": "./output/styles/fonts.css",
-      "filter": {
-        "types": [
-          "font"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "to-css-font-import",
-          "options": {
-            "formats": [
-              "woff2",
-              "woff"
-            ],
-            "fontsPath": "../assets/fonts"
+            "splitBy": "/"
           }
         }
       ]
