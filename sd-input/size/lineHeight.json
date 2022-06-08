@@ -1,0 +1,19 @@
+{
+  "size": {
+    "lineHeight": {
+      "stepLabelStepLabelText": { "value": "14px" },
+      "s2SubTitle2": { "value": "20px" },
+      "s2Subtitle2": { "value": "20px" },
+      "s1SubTitle1": { "value": "20px" },
+      "labelBodyText3": { "value": "17px" },
+      "h2Header2": { "value": "24px" },
+      "h1Header1": { "value": "36px" },
+      "captionCaptionText": { "value": "20px" },
+      "captionBoldCaptionTextBold": { "value": "20px" },
+      "buttonButtonText": { "value": "20px" },
+      "b2BodyText2": { "value": "24px" },
+      "b1LBodyText1Light": { "value": "20px" },
+      "b1BodyText1": { "value": "24px" }
+    }
+  }
+}

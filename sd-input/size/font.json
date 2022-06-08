@@ -1,0 +1,19 @@
+{
+  "size": {
+    "font": {
+      "stepLabelStepLabelText": { "value": "12px" },
+      "s2SubTitle2": { "value": "14px" },
+      "s2Subtitle2": { "value": "14px" },
+      "s1SubTitle1": { "value": "16px" },
+      "labelBodyText3": { "value": "14px" },
+      "h2Header2": { "value": "20px" },
+      "h1Header1": { "value": "28px" },
+      "captionCaptionText": { "value": "12px" },
+      "captionBoldCaptionTextBold": { "value": "12px" },
+      "buttonButtonText": { "value": "14px" },
+      "b2BodyText2": { "value": "14px" },
+      "b1LBodyText1Light": { "value": "16px" },
+      "b1BodyText1": { "value": "16px" }
+    }
+  }
+}
