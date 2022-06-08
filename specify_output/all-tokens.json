@@ -1,0 +1,306 @@
+[
+    {
+        "id": "ff1317b1-f471-41ec-9f9c-dd77ef5be1bc",
+        "createdAt": "2022-06-08T11:20:37.719Z",
+        "updatedAt": "2022-06-08T11:20:37.719Z",
+        "name": "Alert/Error/Active",
+        "value": {
+            "a": 1,
+            "b": 54,
+            "g": 67,
+            "r": 244
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "5:151",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "81ddb349-3caf-4c63-ac47-f8029bb9e6eb",
+        "createdAt": "2022-06-08T11:20:37.696Z",
+        "updatedAt": "2022-06-08T11:20:37.696Z",
+        "name": "Alert/Error/Inactive",
+        "value": {
+            "a": 1,
+            "b": 205,
+            "g": 209,
+            "r": 251
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "5:153",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "2fae9d38-d82b-4047-b0c7-89ec41eb2767",
+        "createdAt": "2022-06-08T11:20:37.683Z",
+        "updatedAt": "2022-06-08T11:20:37.683Z",
+        "name": "Alert/Success/Active",
+        "value": {
+            "a": 1,
+            "b": 74,
+            "g": 195,
+            "r": 139
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "5:152",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "ef33588f-6415-4a31-bb5c-baf108c36e69",
+        "createdAt": "2022-06-08T11:20:37.696Z",
+        "updatedAt": "2022-06-08T11:20:37.696Z",
+        "name": "Alert/Success/Inactive",
+        "value": {
+            "a": 1,
+            "b": 210,
+            "g": 240,
+            "r": 226
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "5:155",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "005965f8-4553-4b13-94ce-3ef18f3ba607",
+        "createdAt": "2022-06-08T11:20:37.710Z",
+        "updatedAt": "2022-06-08T11:20:37.710Z",
+        "name": "Alert/Warning/Active",
+        "value": {
+            "a": 1,
+            "b": 67,
+            "g": 112,
+            "r": 255
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "5:150",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "879ac95e-6b49-41cd-a271-c8c4c45e7508",
+        "createdAt": "2022-06-08T11:20:37.721Z",
+        "updatedAt": "2022-06-08T11:20:37.721Z",
+        "name": "Alert/Warning/Inactive",
+        "value": {
+            "a": 1,
+            "b": 209,
+            "g": 220,
+            "r": 255
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "5:154",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "334b6715-2089-4a4c-adc9-c300a099b7c1",
+        "createdAt": "2022-06-08T11:20:37.674Z",
+        "updatedAt": "2022-06-08T11:20:37.674Z",
+        "name": "BLACK",
+        "value": {
+            "a": 1,
+            "b": 47,
+            "g": 47,
+            "r": 47
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "2:16",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "ec7ac7cf-cca2-401a-ad5d-e9eb67923fff",
+        "createdAt": "2022-06-08T11:20:37.696Z",
+        "updatedAt": "2022-06-08T11:20:37.696Z",
+        "name": "GREY 1",
+        "value": {
+            "a": 1,
+            "b": 151,
+            "g": 151,
+            "r": 151
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "2:15",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "ad262eea-5507-45be-b115-2065fe1baf84",
+        "createdAt": "2022-06-08T11:20:37.681Z",
+        "updatedAt": "2022-06-08T11:20:37.681Z",
+        "name": "GREY 2",
+        "value": {
+            "a": 1,
+            "b": 225,
+            "g": 225,
+            "r": 225
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "63:49",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "31c4743a-b2f5-428c-a56d-40a6b2f58630",
+        "createdAt": "2022-06-08T11:20:37.697Z",
+        "updatedAt": "2022-06-08T11:20:37.697Z",
+        "name": "PRIMARY/100",
+        "value": {
+            "a": 1,
+            "b": 244,
+            "g": 235,
+            "r": 252
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "5:139",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "85af5921-3f67-4d4f-8306-3629a6b97cf4",
+        "createdAt": "2022-06-08T11:20:37.716Z",
+        "updatedAt": "2022-06-08T11:20:37.716Z",
+        "name": "PRIMARY/900",
+        "value": {
+            "a": 1,
+            "b": 144,
+            "g": 51,
+            "r": 227
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "2:11",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "646b3b24-a3d1-40f1-8f8e-30ef7c5cbec4",
+        "createdAt": "2022-06-08T11:20:37.686Z",
+        "updatedAt": "2022-06-08T11:20:37.686Z",
+        "name": "SECONDARY/100",
+        "value": {
+            "a": 1,
+            "b": 253,
+            "g": 247,
+            "r": 230
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "5:140",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "7ec8e806-dd66-40ab-b30b-69682d4414a0",
+        "createdAt": "2022-06-08T11:20:37.697Z",
+        "updatedAt": "2022-06-08T11:20:37.697Z",
+        "name": "SECONDARY/900",
+        "value": {
+            "a": 1,
+            "b": 239,
+            "g": 180,
+            "r": 2
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "2:12",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "536e1112-1dac-4031-b5f8-7c4c47161087",
+        "createdAt": "2022-06-08T11:20:37.712Z",
+        "updatedAt": "2022-06-08T11:20:37.712Z",
+        "name": "TERTIARY/!00",
+        "value": {
+            "a": 1,
+            "b": 255,
+            "g": 252,
+            "r": 247
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "33:47",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "3cffe451-f38e-4158-b1ac-6283f12741ba",
+        "createdAt": "2022-06-08T11:20:37.696Z",
+        "updatedAt": "2022-06-08T11:20:37.696Z",
+        "name": "TERTIARY/900",
+        "value": {
+            "a": 1,
+            "b": 255,
+            "g": 228,
+            "r": 173
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "2:13",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    },
+    {
+        "id": "62067106-fb04-4e19-b84a-165043f46092",
+        "createdAt": "2022-06-08T11:20:37.720Z",
+        "updatedAt": "2022-06-08T11:20:37.720Z",
+        "name": "WHITE",
+        "value": {
+            "a": 1,
+            "b": 255,
+            "g": 255,
+            "r": 255
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "2:14",
+        "sourceId": "1a78d8ff-fe10-42ef-8eff-d1015f6c9bb9",
+        "repositoryId": "47de96c3-1228-40a0-9b28-9d9d90e39c31"
+    }
+]
