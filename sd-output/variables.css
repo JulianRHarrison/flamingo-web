@@ -1,17 +1,17 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Jun 2022 12:51:52 GMT
+ * Generated on Thu, 09 Jun 2022 08:25:34 GMT
  */
 
 :root {
-  --flamingo-museo-sans-rounded700-name: 'MuseoSansRounded-700';
-  --flamingo-museo-sans-rounded700-ttf: 'MuseoSansRounded-700.ttf';
-  --flamingo-museo-sans700-name: 'MuseoSans-700';
-  --flamingo-museo-sans700-ttf: 'MuseoSans-700.ttf';
-  --flamingo-museo-sans500-name: 'MuseoSans-500';
-  --flamingo-museo-sans500-ttf: 'MuseoSans-500.ttf';
-  --flamingo-museo-sans300-name: 'MuseoSans-300';
-  --flamingo-museo-sans300-ttf: 'MuseoSans-300.ttf';
+  --flamingo-museo-sans-rounded700-name: "MuseoSansRounded-700";
+  --flamingo-museo-sans-rounded700-ttf: "MuseoSansRounded-700.ttf";
+  --flamingo-museo-sans700-name: "MuseoSans-700";
+  --flamingo-museo-sans700-ttf: "MuseoSans-700.ttf";
+  --flamingo-museo-sans500-name: "MuseoSans-500";
+  --flamingo-museo-sans500-ttf: "MuseoSans-500.ttf";
+  --flamingo-museo-sans300-name: "MuseoSans-300";
+  --flamingo-museo-sans300-ttf: "MuseoSans-300.ttf";
   --flamingo-white: #ffffff;
   --flamingo-tertiary-900: #ade4ff;
   --flamingo-tertiary-00: #f7fcff;
