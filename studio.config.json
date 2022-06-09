@@ -2,27 +2,24 @@
   "packages": {
     "dir": "",
     "menu": [
+      "readme",
       [
-        "TOKENS",
+        "tokens",
         [
-          "color",
-          "textStyle"
+          "typography",
+          "colors",
+          "space",
+          "sizes",
+          "shadows",
+          "radii",
+          "border",
+          "z-index",
+          "all"
         ]
       ],
-      [
-        "COMPONENTS",
-        [
-          "button"
-        ]
-      ],
-      [
-        "INFRASTRUCTURE",
-        [
-          "doc-layout",
-          "sd-input",
-          "sd-output"
-        ]
-      ]
+      ["theme-ui", ["tui-button", "tui-utils"]],
+      ["styled-components", ["styled-button", "styled-utils"]],
+      ["dockit", ["layout"]]
     ]
   }
 }
