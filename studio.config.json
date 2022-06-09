@@ -5,8 +5,8 @@
       [
         "TOKENS",
         [
-          "colors",
-          "textStyle"
+          "color",
+          "font"
         ]
       ],
       [
