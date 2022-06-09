@@ -39,5 +39,5 @@
 }
 
 .btn[disabled] {
-  background-color: var(--specify-button-primary-disabled-background);
+  background-color: var(--flamingo-grey2);
 }
