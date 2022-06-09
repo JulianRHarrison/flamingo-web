@@ -9,5 +9,5 @@ import '../src/button.css';
 ```
 
 ```js preview-story
-export const base = () => html` <button class="btn">Primary</button> `;
+export const primary = () => html` <button class="btn">Primary</button> `;
 ```
