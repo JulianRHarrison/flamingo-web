@@ -16,21 +16,7 @@ Primary colors of our brand.
 ```js story
 export const primary = () => html`
   <dockit-css-showcases
-    css-props-prefix="--specify-core-colors-primary"
-    component-class="box"
-    style-key="background-color"
-  ></dockit-css-showcases>
-`;
-```
-
-### Grey colors
-
-Secondary colors of our brand.
-
-```js story
-export const secondary = () => html`
-  <dockit-css-showcases
-    css-props-prefix="--specify-core-colors-grey"
+    css-props-prefix="--flamingo-primary-900"
     component-class="box"
     style-key="background-color"
   ></dockit-css-showcases>
